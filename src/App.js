@@ -15,7 +15,7 @@ import 'ace-builds/src-min-noconflict/ext-searchbox';
 import "ace-builds/webpack-resolver";
 import "ace-builds/src-min-noconflict/ext-language_tools";
 import "ace-builds/src-noconflict/mode-html";
-// import "ace-builds/src-noconflict/worker-html";
+import "ace-builds/src-noconflict/worker-html";
 // import "ace-builds/src-noconflict/worker-javascript";
 import "ace-builds/src-noconflict/snippets/html";
 import "ace-builds/src-noconflict/theme-monokai";
@@ -54,7 +54,7 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <div className="nav">
-            <img src={Logo} width="100px" height="100px" style={{marginLeft:50}} alt="logo"/>
+            <img src={Logo} width="100px" height="100px" style={{marginLeft:50}}/>
               <h1 className="h1">Practice Editor</h1>
           </div>
           <div className="nav menu">
@@ -71,7 +71,7 @@ class App extends Component {
           </div>
         </div>
         <div className="flex-split" style={{marginLeft:55,marginRight:55}}>
-          <div className="flex-split-left">
+          <div className="flex-split-left mee">
               <AceEditor
                 mode="html"
                 theme="monokai"

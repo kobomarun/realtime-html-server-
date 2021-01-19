@@ -70,7 +70,7 @@ h2 {
 }
 
 .preview {
-  border: 1px solid;
+  /* border: 1px solid; */
   padding: 10px;;
 }
 
@@ -125,7 +125,7 @@ h2 {
 /* SPLIT SCREEN ABOVE 60EM */
 /***************************/
 @media all and (min-width:60em) {
-  .flex-split>div {
+  .flex-split> .mee {
     min-width: 50%;
     width: 50%;
   }
@@ -148,8 +148,10 @@ h2 {
   /*circular buttons in the middle at big enough screens*/
 
 }
-
-.flex-split>div {
+ .mee {
+   width: 100%;
+ }
+.flex-split> .mee {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
