@@ -40,7 +40,6 @@ class App extends Component {
   onEditorChange(newValue) {
      ReactDOM.findDOMNode(this.myRef.current).innerHTML = newValue
      localStorage.setItem('code',newValue)
-     console.log('new',newValue)
   }
 
   onPaste(event){
@@ -51,7 +50,6 @@ class App extends Component {
 
   render() {
     const {value} = this.state;
-    console.log(this.myRef)
     return (
       <div className="App">
         <div className="container">
