@@ -26,7 +26,7 @@ class App extends Component {
           <Route path="/view/:id">
             <ShareUrl /> 
           </Route>
-       <Header onSave={this.onSave}/>
+       {/* <Header onSave={this.onSave}/> */}
        
         <Switch>
           <Route exact path="/">

@@ -9,10 +9,10 @@ return(
             <img src={Logo} width="100px" height="100px" style={{marginLeft:50}}/>
               <h1 className="h1">Practice Editor</h1>
           </div>
-          <div className="nav menu">
+          {/* <div className="nav menu">
             <button className="btn">Open</button>
             <button className="btn" onClick={props.onSave}>Save</button>
-          </div>
+          </div> */}
         </div>
     </>
 )

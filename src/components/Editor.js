@@ -95,7 +95,7 @@ class Editor extends Component {
     }
 
     shareURL = () => {
-        alert('dd')
+        
         const project_name = localStorage.getItem('pname');
         const user = this.state.user;
         if(project_name == null){
@@ -104,10 +104,12 @@ class Editor extends Component {
             this.setState({
                 share:`${window.location.hostname}/${user.name}/${pname}`
             })
+            alert('Copy the Url')
         } else {
             this.setState({
                 share:`${window.location.hostname}:3001/view/${user.name.replace(/\s/g, '-')}/${project_name}`
             })
+            alert('Copy the Url')
         }
         
     }
