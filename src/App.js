@@ -15,7 +15,7 @@ import 'ace-builds/src-min-noconflict/ext-searchbox';
 import "ace-builds/webpack-resolver";
 import "ace-builds/src-min-noconflict/ext-language_tools";
 import "ace-builds/src-noconflict/mode-html";
-import "ace-builds/src-noconflict/worker-html";
+// import "ace-builds/src-noconflict/worker-html";
 // import "ace-builds/src-noconflict/worker-javascript";
 import "ace-builds/src-noconflict/snippets/html";
 import "ace-builds/src-noconflict/theme-monokai";
