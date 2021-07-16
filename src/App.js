@@ -54,7 +54,7 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <div className="nav">
-            <img src={Logo} width="100px" height="100px" style={{marginLeft:50}}/>
+            <img src={Logo} width="100px" height="100px" style={{marginLeft:50}} alt="logo"/>
               <h1 className="h1">Practice Editor</h1>
           </div>
           <div className="nav menu">
